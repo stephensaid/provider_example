@@ -11,7 +11,7 @@ class SecondPage extends StatelessWidget {
 
     return Scaffold(
         floatingActionButton: FloatingActionButton(
-            onPressed: () => context.read<ShoppingCart>().addItem("Tamal"),
+            onPressed: () => context.read<ShoppingCart>().addItem("Dates"),
             child: const Icon(Icons.add)),
         appBar: AppBar(
           title: const Text('Shopping cart'),
